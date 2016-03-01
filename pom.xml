@@ -34,6 +34,7 @@
     <!-- common versions -->
     <properties>
         <jackson2-version>2.6.3</jackson2-version>
+        <okhttp-version>2.5.0</okhttp-version>
     </properties>
 
     <dependencyManagement>
@@ -44,6 +45,18 @@
                 <groupId>com.squareup.retrofit</groupId>
                 <artifactId>retrofit</artifactId>
                 <version>1.9.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup.okhttp</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp-version}</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>com.squareup.okhttp</groupId>
+                <artifactId>okhttp-urlconnection</artifactId>
+                <version>${okhttp-version}</version>
             </dependency>
 
             <dependency>
