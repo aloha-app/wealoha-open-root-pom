@@ -83,6 +83,19 @@
                 <version>1.10</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.google.protobuf</groupId>
+                <artifactId>protobuf-java</artifactId>
+                <version>3.0.0-beta-4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.ecyrd.speed4j</groupId>
+                <artifactId>speed4j</artifactId>
+                <version>0.18</version>
+
+            </dependency>
+
             <!-- qcloud 签名 -->
             <dependency>
                 <groupId>org.bouncycastle</groupId>
@@ -211,6 +224,7 @@
 
 
     <profiles>
+        <!--
         <profile>
             <id>sign-artifacts</id>
             <activation>
@@ -235,6 +249,7 @@
                 </plugins>
             </build>
         </profile>
+        -->
     </profiles>
 
     <distributionManagement>
